@@ -21,7 +21,7 @@ function App() {
               />
               <p className="text-base font-light text-black">let’s property</p>
             </div>
-            <div className="main-services-container flex justify-center items-center w-full h-[80svh] lg:h-[75svh] px-9">
+            <div className="main-services-container flex justify-center items-center w-full h-[84svh] lg:h-[75svh] px-9">
               <Services />
             </div>
           </div>

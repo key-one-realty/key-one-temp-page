@@ -99,7 +99,7 @@ const Services = () => {
             })}
           </div>
         </div>
-        <div className="service-descriptions">
+        <div className="service-descriptions px-6">
           {services.map((service) => {
             return (
               <ServiceDescription
@@ -142,7 +142,7 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="h-[3px] w-full bg-[#F7CB6A] lg:w-[324px]"></div>
+        <div className="h-[3px] max-w-[100svw] w-screen bg-[#F7CB6A] lg:w-[324px]"></div>
         <div className="flex w-full justify-center items-center gap-2">
           <a href="https://www.facebook.com/keyone.realestate/" target="_blank">
             <img
