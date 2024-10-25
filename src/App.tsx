@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <main className="max-w-screen w-full max-h-screen h-full">
-        <header className="main-header flex justify-center items-center w-full h-full pt-16 lg:pt-24">
+        <header className="main-header flex justify-center items-center w-full h-full pt-10 lg:pt-24">
           <video autoPlay muted loop id="bgVideo">
             <source src={bgVideo} type="video/mp4" />
           </video>
