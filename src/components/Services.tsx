@@ -54,20 +54,14 @@ const Services = () => {
     },
   ];
 
-  const [tempService, setTempService] = useState(services);
   const [selectedService, setSelectedService] = useState(1);
 
   const handlePopService = () => {
-    const tempServiceLength = tempService.length - 1;
-    console.log(
-      `Temp service length: ${tempServiceLength}, Selected Service: ${selectedService}`
-    );
+    const tempServiceLength = services.length - 1;
 
     if (selectedService <= tempServiceLength) {
-      //   setTempService(tempService.slice(1));
       setSelectedService(selectedService + 1);
     } else {
-      //   setTempService(services);
       setSelectedService(1);
     }
   };
@@ -92,7 +86,7 @@ const Services = () => {
           onClick={handlePopService}
         >
           <div className="w-full h-full">
-            {tempService.map((service) => {
+            {services.map((service) => {
               return (
                 <ServiceCard
                   key={service.id}
@@ -106,7 +100,7 @@ const Services = () => {
           </div>
         </div>
         <div className="service-descriptions">
-          {tempService.map((service) => {
+          {services.map((service) => {
             return (
               <ServiceDescription
                 key={service.id}
