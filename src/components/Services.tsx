@@ -124,7 +124,7 @@ const Services = () => {
         <div
           className={`${
             selectedService > 1 ? "show-helper-btns" : "hide-helper-btns"
-          } helper-btns flex justify-between items-center w-full`}
+          } helper-btns flex justify-between items-center w-full px-6`}
         >
           <button onClick={handlePreviousService}>
             <img
