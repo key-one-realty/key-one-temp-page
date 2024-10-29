@@ -116,9 +116,7 @@ const Services = () => {
       </div>
       <div className="footer w-full flex flex-col justify-center items-center gap-8 relative">
         <h2 className="text-black font-bold text-xl leading-10 hidden lg:flex">
-          {selectedService > 1
-            ? "We Are Coming Soon..."
-            : "Get Ready for Something Amazing. We’ll Be Back Soon."}
+          Get Ready for Something Amazing. We’ll Be Back Soon.
         </h2>
 
         <div
