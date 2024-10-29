@@ -8,7 +8,7 @@ function App() {
     <>
       <main className="max-w-screen w-full max-h-screen h-full">
         <header className="main-header flex justify-center items-center w-full h-full pt-10 lg:pt-24">
-          <video autoPlay muted loop id="bgVideo">
+          <video autoPlay muted playsInline loop id="bgVideo">
             <source src={bgVideo} type="video/mp4" />
           </video>
           <div className="overlay bg-white absolute top-0 left-0 w-screen h-screen z-20"></div>

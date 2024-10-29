@@ -114,7 +114,7 @@ const Services = () => {
           })}
         </div>
       </div>
-      <div className="footer w-full flex flex-col justify-center items-center gap-10 relative">
+      <div className="footer w-full flex flex-col justify-center items-center gap-8 relative">
         <h2 className="text-black font-bold text-xl leading-10 hidden lg:flex">
           {selectedService > 1
             ? "We Are Coming Soon..."
@@ -134,12 +134,14 @@ const Services = () => {
             />
           </button>
 
-          <button
-            onClick={handleBackToStart}
-            className="uppercase text-[6px] text-black lg:text-[10px] leading-10 font-bold bg-[#F7CB6A] px-4 lg:px-7"
-          >
-            back to start
-          </button>
+          {selectedService == services.length && (
+            <button
+              onClick={handleBackToStart}
+              className="uppercase text-[6px] text-black lg:text-[10px] leading-10 font-bold bg-[#F7CB6A] px-4 lg:px-7"
+            >
+              back to start
+            </button>
+          )}
         </div>
 
         <div className="h-[3px] max-w-[100svw] w-screen bg-[#F7CB6A] lg:w-[324px]"></div>
