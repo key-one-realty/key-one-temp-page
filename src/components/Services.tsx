@@ -2,9 +2,9 @@ import { useState } from "react";
 import ServiceCard from "./ServiceCard";
 import ServiceDescription from "./ServiceDescription";
 import previousBtn from "../assets/previous.svg";
-import facebookIcon from "../assets/facebook.png";
-import instagramIcon from "../assets/instagram.svg";
-import tiktokIcon from "../assets/tiktok.png";
+import facebookIcon from "../assets/facebook_1.svg";
+import instagramIcon from "../assets/instagram_1.svg";
+import tiktokIcon from "../assets/tiktok_1.svg";
 
 const Services = () => {
   const services = [
@@ -116,9 +116,7 @@ const Services = () => {
       </div>
       <div className="footer w-full flex flex-col justify-center items-center gap-8 relative">
         <h2 className="text-black font-bold text-xl leading-10 hidden lg:flex">
-          {selectedService > 1
-            ? "We Are Coming Soon..."
-            : "Get Ready for Something Amazing. We’ll Be Back Soon."}
+          Get Ready for Something Amazing. We’ll Be Back Soon.
         </h2>
 
         <div

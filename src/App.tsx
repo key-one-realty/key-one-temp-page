@@ -6,7 +6,7 @@ import Services from "./components/Services";
 function App() {
   return (
     <>
-      <main className="max-w-screen w-full max-h-screen h-full">
+      <main className="max-w-screen w-full h-full">
         <header className="main-header flex justify-center items-center w-full h-full pt-10 lg:pt-24">
           <video autoPlay muted playsInline loop id="bgVideo">
             <source src={bgVideo} type="video/mp4" />
