@@ -2,9 +2,9 @@ import { useState } from "react";
 import ServiceCard from "./ServiceCard";
 import ServiceDescription from "./ServiceDescription";
 import previousBtn from "../assets/previous.svg";
-import facebookIcon from "../assets/facebook.png";
-import instagramIcon from "../assets/instagram.svg";
-import tiktokIcon from "../assets/tiktok.png";
+import facebookIcon from "../assets/facebook_1.svg";
+import instagramIcon from "../assets/instagram_1.svg";
+import tiktokIcon from "../assets/tiktok_1.svg";
 
 const Services = () => {
   const services = [
