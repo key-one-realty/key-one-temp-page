@@ -11,7 +11,7 @@
 }
 
 .overlay{
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .services-container{
@@ -170,12 +170,12 @@
 
 @media screen and (min-width: 376px) and (max-width: 1024px) {
   #bgVideo, .overlay{
-    height: calc(100vh + 20px);
+    height: calc(100vh + 30px);
   }
 
   .main-services-container{
     height: 90svh;
-    max-height: calc(100vh + 20px);
+    max-height: calc(100vh + 30px);
   }
 
   .services-selector{
