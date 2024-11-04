@@ -170,12 +170,12 @@
 
 @media screen and (min-width: 376px) and (max-width: 1024px) {
   #bgVideo, .overlay{
-    height: calc(100vh + 30px);
+    height: calc(100vh + 20px);
   }
 
   .main-services-container{
     height: 90svh;
-    max-height: calc(100vh + 30px);
+    max-height: calc(100vh + 20px);
   }
 
   .services-selector{
