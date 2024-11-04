@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <main className="max-w-screen w-full h-full">
-        <header className="main-header flex justify-center items-center w-full h-full pt-10 lg:pt-24">
+        <header className="main-header flex justify-center items-center w-full h-full pt-10 lg:pt-14">
           <video autoPlay muted playsInline loop id="bgVideo">
             <source src={bgVideo} type="video/mp4" />
           </video>
@@ -21,7 +21,7 @@ function App() {
               />
               <p className="text-base font-light text-black">let’s property</p>
             </div>
-            <div className="main-services-container flex justify-center items-center w-full h-[84svh] lg:h-[75svh] px-9">
+            <div className="main-services-container flex justify-center items-center w-full h-[84svh] lg:h-[80svh] px-9">
               <Services />
             </div>
           </div>

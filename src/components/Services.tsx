@@ -12,6 +12,7 @@ const Services = () => {
       id: 1,
       serviceTopText: "",
       serviceUnderText: "",
+      serviceMainTitle: "A Commitment to Property Investment Success",
       serviceDescription:
         "Key One is your one-stop destination for all things real estate, offering a complete range of services tailored to your needs. From buying, selling, and leasing to property management, holiday rentals, and interior design, our four divisions provide seamless, unified solutions under one roof.",
       webLink: "",
@@ -20,6 +21,8 @@ const Services = () => {
       id: 2,
       serviceTopText: "HOLIDAY",
       serviceUnderText: "HOMES",
+      serviceMainTitle:
+        "Maximizing Returns with Hassle-Free Holiday Home Management",
       serviceDescription:
         "We ensure high occupancy rates and increased income for your holiday home. Our attention to detail also helps guests have an unforgettable experience, which in turn encourages repeat visits and positive reviews.",
       webLink:
@@ -29,6 +32,8 @@ const Services = () => {
       id: 3,
       serviceTopText: "property",
       serviceUnderText: "management",
+      serviceMainTitle:
+        "Full-Service Property Management for a Solid Investment",
       serviceDescription:
         "Your property is a valuable investment asset, and we treat it as such. Whether it's a single property or an entire building, we promise to unlock its full potential while navigating the complexities of property management for you .",
       webLink:
@@ -38,6 +43,8 @@ const Services = () => {
       id: 4,
       serviceTopText: "interior",
       serviceUnderText: "design",
+      serviceMainTitle:
+        "Transforming Spaces into Luxurious Living Environments",
       serviceDescription:
         "Redefining spaces with limitless possibilities. Key One’s interior design solutions will transform your space into a home haven, utilizing our expertise to bring luxury and comfort to each project assigned.",
       webLink:
@@ -47,6 +54,7 @@ const Services = () => {
       id: 5,
       serviceTopText: "real estate",
       serviceUnderText: "brokerage",
+      serviceMainTitle: "Exclusive Award-Winning Property Agency",
       serviceDescription:
         "Sellers benefit from Key One’s proven strategy, which maximizes property value while ensuring swift sales. Due to our proactive approach, landlords with Key One experience hassle-free solutions .",
       webLink:
@@ -105,7 +113,7 @@ const Services = () => {
               <ServiceDescription
                 key={service.id}
                 selectedService={selectedService}
-                serviceName={`${service.serviceTopText} ${service.serviceUnderText}`}
+                serviceName={service.serviceMainTitle}
                 serviceDescription={service.serviceDescription}
                 serviceLink={service.webLink}
                 index={service.id}
